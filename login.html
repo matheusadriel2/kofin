@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kofin · Login</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid vh-100 d-flex p-0">
+      <div class="container text-center d-flex flex-column justify-content-center align-items-center gap-5 vh-100 p-0">
+        <a href="./index.html"><img src="./assets/logo-black.svg" alt="Logo" id="logo" /></a>
+        <div class="d-flex flex-column w-50">
+          <div class="d-flex flex-column gap-2">
+            <div class="text-start">
+              <h5>Entrar</h5>
+            </div>
+            <div>
+              <div class="d-grid gap-2">
+                <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" />
+                <div class="input-group mb-1">
+                  <input type="text" class="form-control" placeholder="Senha" aria-label="Senha" />
+                  <span class="input-group-text">
+                    <i class="bi bi-eye-slash"></i>
+                  </span>
+                </div>
+                <div class="d-flex flex-column flex-lg-row justify-content-between gap-3 mb-3">
+                  <div class="d-flex gap-2">
+                    <input type="checkbox" id="ProcessingConsultantYN" value="0" />
+                    <label
+                      class="checkbox-inline fs-6 text-start"
+                      aria-describedby="ProcessingConsultantYN"
+                      id="lbProcessingConsultant"
+                      for="ProcessingConsultantYN"
+                      >Lembrar senha</label
+                    >
+                  </div>
+                  <div>
+                    <a href="./register.html" class="text-warning link-offset-2 link-underline link-underline-opacity-0">Cadastrar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-secondary">Continuar</button>
+          </div>
+          <div class="d-flex align-items-center my-4">
+            <hr class="flex-grow-1" />
+            <span class="mx-2">Ou</span>
+            <hr class="flex-grow-1" />
+          </div>
+          <div>
+            <a href="#" type="button" class="btn btn-outline-light">
+              <img src="./assets/devicon_google.svg" alt="Google Icon" />
+            </a>
+            <a href="#" type="button" class="btn btn-outline-light">
+              <img src="./assets/devicon_facebook.svg" alt="Facebook Icon" />
+            </a>
+            <a href="#" type="button" class="btn btn-outline-light">
+              <img src="./assets/simple-icons_apple.svg" alt="Apple Icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-dark w-100 d-none d-lg-block"><img src="./assets/geometric-pattern2.jpg" alt="Pattern" id="pattern" /></div>
+    </div>
+  </body>
+</html>
