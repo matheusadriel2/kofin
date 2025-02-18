@@ -1,9 +1,9 @@
 # <left> kofin</left>
 
 <h3>Fintech Project</h3>
-<p>🇺🇸 Kofin is a platform developed as part of an academic project, providing smart solutions for managing finances, investments, and financial education.</p>
+<p>Kofin is a platform developed as part of an academic project, providing smart solutions for managing finances, investments, and financial education.</p>
 
-<p>🇧🇷 Kofin é uma plataforma desenvolvida como parte de um projeto acadêmico, oferecendo soluções inteligentes para gerenciamento de finanças, investimentos e educação financeira.</p>
+<p>Kofin é uma plataforma desenvolvida como parte de um projeto acadêmico, oferecendo soluções inteligentes para gerenciamento de finanças, investimentos e educação financeira.</p>
 
 ## Technologies
 
