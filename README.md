@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 
-<h1>kofin-frontend</h1>
+<h1>kofin</h1>
 
 <img src="./assets/banner.png">
 
